@@ -13,7 +13,8 @@ export default {
           SHOW_WATERMARK_FOR_GUESTS: false,
           APP_NAME: 'Appointments',
           NATIVE_APP_NAME: 'RW-Appointment',
-          PROVIDER_NAME: 'RobustWealth-Appointment'
+          PROVIDER_NAME: 'RobustWealth-Appointment',
+          DISABLE_TRANSCRIPTION_SUBTITLES: false,
         },
         onload: () => {
           document.querySelector('iframe').style.height = '100vh';
