@@ -11,6 +11,9 @@ export default {
           SHOW_JITSI_WATERMARK: false,
           MOBILE_APP_PROMO: false,
           SHOW_WATERMARK_FOR_GUESTS: false,
+          APP_NAME: 'Appointments',
+          NATIVE_APP_NAME: 'RW-Appointment',
+          PROVIDER_NAME: 'RobustWealth-Appointment'
         },
         onload: () => {
           document.querySelector('iframe').style.height = '100vh';
